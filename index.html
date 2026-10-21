@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>卢梓祺的个人主页</title>
+    <style>
+        /* 盒模型全局初始化 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f0f8ff;
+            font-family: "Microsoft Yahei", sans-serif;
+            line-height: 1.6;
+            padding: 30px;
+        }
+        /* 主容器：盒模型 */
+        .container {
+            width: 700px;
+            margin: 0 auto;  /* 外边距，水平居中 */
+            padding: 30px;   /* 内边距 */
+            border: 2px solid #4472c4; /* 边框 */
+            border-radius: 12px;
+            background-color: #ffffff;
+        }
+        h1 {
+            margin-bottom: 16px;
+            color: #222;
+            text-align: center;
+        }
+        .info {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #4472c4;
+        }
+        .photo-box {
+            width: 400px;
+            margin: 20px auto;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            display: block;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>大家好，我叫卢梓祺</h1>
+
+        <div class="info">
+            <p><strong>个人介绍：</strong>来自福建龙岩，目前在上外学习。</p >
+        </div>
+        <div class="info">
+            <p><strong>兴趣爱好：</strong>喜欢打篮球、听说唱，最喜欢的说唱歌手是<a href=" https://www.baike.com/wikiid/7265966594474885176" target="_blank">Asen</a >，也喜欢瓦洛兰特。</p >
+        </div>
+        <div class="photo-box">
+            <img src="myphoto.jpg" alt="卢梓祺的照片">       
+        </div>
+        <div class="info">
+            <p><strong>学习方向：</strong>英语、Web程序设计，持续学习编程知识，数据科学大数据。</p >
+        </div>
+        <div class="info">
+            <p><strong>了解更多：</strong>上周四代表国教夺得篮球新生杯冠军。</p >
+        </div>
+    </div>
+</body>
+</html>
